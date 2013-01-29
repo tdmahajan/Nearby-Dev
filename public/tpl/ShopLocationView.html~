@@ -1,0 +1,12 @@
+<div class="row-fluid">
+	<div id="span12" class="span12">
+		<input id="search_txt" type="text" placeholder="Search here...">
+		<select class="product_weight">
+			<option>100gm</option>
+			<option>200gm</option>
+			<option>300gm</option>
+			<option>400gm</option>
+			<option>500gm</option>
+		</select> 
+	</div>
+</div>

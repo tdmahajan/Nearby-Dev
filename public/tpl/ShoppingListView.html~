@@ -1,0 +1,24 @@
+<div id="shopping_list" class="modal hide fade in" class="product_details_modals">
+	<div class="modal-header">
+		<h3>Shopping Cart</h3>
+	</div>
+	<div class="modal-body">
+		<table class="table table-bordered table-striped">
+			<thead>
+				<tr>
+					<th id="th_item">Item</th>
+					<th id="th_qty">Qty.</th>
+					<th id="td_price">MRP</th>
+					<th id="th_remove">Remove</th>
+				</tr>
+			</thead>
+			<tbody id="shopping_cart">				
+			</tbody>
+		</table>
+	</div>
+	<div class="modal-footer">
+		<a href="#checkout" class="btn btn-success"><i class="icon-ok icon-white socials"></i>CHECKOUT</a>
+		<a href="#" class="btn" data-dismiss="modal">Close</a>
+	</div>
+</div>
+

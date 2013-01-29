@@ -1,0 +1,20 @@
+<li class="span3">
+  	<div class="product_div">
+		<a style="cursor:pointer">
+			<img id="product_img" src="pics/<%= _.first(TradeOptions).ImageUrl.Web %>">
+		</a>
+		<div class="caption">
+			<h5><%= SKUName %> <%= _.first(TradeOptions).Quantity %><%= _.first(TradeOptions).UOM %></h5>
+			<p>
+                         <select id="<%= _id %>" class="product_weight">
+                          <% _.each(TradeOptions, function(TradeOption) { %> 
+                           <option><%= TradeOption.Quantity %><%= TradeOption.UOM %></option>
+                          <% }); %>	
+			 </select>
+			 <a id="addtocart-btn" href="#" class="btn btn-success"><i class="icon-shopping-cart icon-white socials"></i>ADD</a>
+		      </p>
+		</div>
+	</div>
+</li>
+
+

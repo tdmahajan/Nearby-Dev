@@ -1,0 +1,1 @@
+<a href="#category/<%= _id %>"><span class="category"><%= name %></span></a><br>
